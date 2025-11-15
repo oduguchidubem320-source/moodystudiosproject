@@ -1,0 +1,26 @@
+.hero{
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: white;
+}
+.btn {
+  display: inline-block;
+  margin-top: 500px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: aqua; 
+  text-decoration: none;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.btn:hover {
+  background-color: palevioletred; 
+}
