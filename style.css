@@ -2,7 +2,6 @@
     background-image: url('hero-bg.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,6 +18,7 @@ h1{
   text-decoration: none;
   border-radius: 5px;
   width: fit-content;
+  height: fit-content;
 }
 
 .btn:hover {
@@ -48,4 +48,32 @@ h1{
   display: flex;
   justify-content: center;
   box-sizing: border-box;
+}
+.container{
+  background-image: url(/Title\ container-bg.jpg);
+    background-position: center;
+    height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.button{
+  background-color: blue;
+  padding: 30px;
+  color: white;
+  margin: 10px;
+}
+.text{
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.image{
+  background-image: url(./Title\ container\ 2-bg.jpg);
+  background-position: center;
+  height: 100vh;
 }
