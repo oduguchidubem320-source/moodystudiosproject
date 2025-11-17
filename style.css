@@ -24,6 +24,28 @@ h1{
 .btn:hover {
   background-color: palevioletred; 
 }
-/* .content{
+.highlight{
+  background-color: blue;
+  color: #ffffff;
+  display: flex;
+  gap: 20px;
+  animation: scroll-left 10s linear infinite;
+  padding-left: 100%;
+  justify-content: space-between;
+}
 
-} */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.Highlighted-text{
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
