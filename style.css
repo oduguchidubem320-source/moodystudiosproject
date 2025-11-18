@@ -1,17 +1,55 @@
+header {
+  color: #ffffff;
+  background-color: #000000;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #575757;
+  /* padding: 1%; */
+
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+
+    li{
+      padding-right: 1.3em;
+      border-right: 1px solid #575757;
+      padding: 0.85rem;
+
+      a{
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+    li:last-child {
+      margin-left: auto;
+      margin-right: 0;
+      border: 0;
+      font-size: larger;
+    }
+  }
+}
+
 .hero{
-    background-image: url('hero-bg.jpg');
+  /* margin-top: 8%; */
+  background-image: url(./hero-bg.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    /* background-position:relative; */
+    position: sticky;
 }
-h1{
-    color: white;
+.numbers{
+  color: white;
 }
 .btn {
   display: inline-block;
-  margin-top: 500px;
+  margin-top: 350px;
+  margin-right: 20px;
   padding: 12px 24px;
   font-size: 18px;
   background-color: aqua; 
@@ -25,7 +63,6 @@ h1{
   background-color: palevioletred; 
 }
 .highlight{
-  background-color: blue;
   color: #ffffff;
   display: flex;
   gap: 20px;
@@ -44,6 +81,8 @@ h1{
 }
 
 .Highlighted-text{
+  background-color: blue;
+
   white-space: nowrap;
   display: flex;
   justify-content: center;
@@ -51,7 +90,7 @@ h1{
 }
 .container{
   background-image: url(/Title\ container-bg.jpg);
-    background-position: center;
+  background-position: bottom;
     height: 100vh;
     /* display: flex; */
     /* flex-direction: column; */
@@ -60,7 +99,8 @@ h1{
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  /* grid-template-rows: 1fr 1fr 1fr; */
 }
 .button{
   background-color: blue;
@@ -70,10 +110,34 @@ h1{
 }
 .text{
   padding-left: 70px;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 .image{
   background-image: url(./Title\ container\ 2-bg.jpg);
   background-position: center;
   height: 100vh;
+}
+.letters{
+  padding-left: 70px;
+  padding-top: 50px;
+}
+
+.parent{
+  display: flex;
+  /* flex-direction: row; */
+}
+.photo{
+  background-image: url(./Founder\ card-bg.jpg);
+  background-repeat: no-repeat;
+  position: right;
+  display: grid;
+
+}
+.writing{
+  padding-right: 70px;
+  padding-top: 70px;
+  color: black;
+}
+.portion{
+  background-color: violet;
 }

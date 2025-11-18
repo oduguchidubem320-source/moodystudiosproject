@@ -1,0 +1,36 @@
+.fresh{
+    background-image: url(./Header\ section.jpg);
+}
+header {
+  color: #ffffff;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #575757;
+  padding: 1%;
+
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+
+    li{
+      padding-right: 1.3em;
+      border-right: 1px solid #575757;
+      padding: 0.85rem;
+
+      a{
+        text-decoration: none;
+        color: #ffffff;
+      }
+    }
+    li:last-child {
+      margin-left: auto;
+      margin-right: 0;
+      border: 0;
+      font-size: larger;
+    }
+  }
+}
