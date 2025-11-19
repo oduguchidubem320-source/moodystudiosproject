@@ -1,4 +1,7 @@
 
+.nothing{
+    background-image: url(./Header.jpg);
+}
 header {
   color: #ffffff;
   background-color: #000000;
@@ -7,7 +10,7 @@ header {
   left: 0;
   width: 100%;
   border-bottom: 1px solid #575757;
-  padding: 1%;
+  /* padding: 1%; */
 
   ul{
     list-style: none;
@@ -31,15 +34,4 @@ header {
       font-size: larger;
     }
   }
-}
-.fresh{
-  height: 100vh;
-    background-image: url("./Header_section.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.small{
-  color: white;
-  background-color: black;
-
 }

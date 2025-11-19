@@ -7,8 +7,10 @@ header {
   width: 100%;
   border-bottom: 1px solid #575757;
   /* padding: 1%; */
+  position: sticky;
 
   ul{
+    padding-top: 4%;
     list-style: none;
     display: flex;
     justify-content: flex-start;
@@ -33,11 +35,14 @@ header {
 }
 
 .hero{
-  /* margin-top: 8%; */
+  /* margin-top: 80px; */
   background-image: url(./hero-bg.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
+    padding-top: 2%;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
     /* display: flex;
     flex-direction: column; */
     /* background-position:relative; */
@@ -48,7 +53,7 @@ header {
 }
 .btn {
   display: inline-block;
-  margin-top: 350px;
+  margin-top: 500px;
   margin-right: 20px;
   padding: 12px 24px;
   font-size: 18px;
@@ -90,8 +95,9 @@ header {
 }
 .container{
   background-image: url(/Title\ container-bg.jpg);
-  background-position: bottom;
-    height: 100vh;
+  /* background-position: bottom; */
+    /* height: 200vh; */
+    background-repeat: no-repeat;
     /* display: flex; */
     /* flex-direction: column; */
 }
@@ -114,8 +120,10 @@ header {
 }
 .image{
   background-image: url(./Title\ container\ 2-bg.jpg);
-  background-position: center;
+  /* background-position: center; */
   height: 100vh;
+  /* margin-top: 7%; */
+  background-repeat:no-repeat;
 }
 .letters{
   padding-left: 70px;
@@ -126,12 +134,13 @@ header {
   display: flex;
   /* flex-direction: row; */
 }
-.photo{
-  background-image: url(./Founder\ card-bg.jpg);
-  background-repeat: no-repeat;
-  position: right;
-  display: grid;
-
+.profile-photo{
+  background-image: url("./title\ conntainer\ 3.jpg");
+  /* background-repeat: no-repeat;
+  /* display: grid; */
+  background-size: cover;
+    position: right;
+    height: 100vh;
 }
 .writing{
   padding-right: 70px;
@@ -140,4 +149,7 @@ header {
 }
 .portion{
   background-color: violet;
+}
+.solo{
+  color: white;
 }
