@@ -1,6 +1,10 @@
 
 .nothing{
-    background-image: url(./Header.jpg);
+    background-image: url("./Header.jpg");
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+    background-position: center;
 }
 header {
   color: #ffffff;
@@ -34,4 +38,35 @@ header {
       font-size: larger;
     }
   }
+}
+body{
+    /* overflow: hidden; */
+}
+.something{
+    display: flex;
+    gap: 10px;
+    /* background-color: blue; */
+    color: white;
+    animation: scroll-left 10s linear infinite;
+}
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+    overflow: hidden;
+  }
+}
+.indestructable{
+    background-color: blue;
+}
+.super{
+    color: white;
+    font-size: xx-large;
+}
+.chill{
+    background-color: black;
+    color: white;
+    padding-top: 2%;
 }

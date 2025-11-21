@@ -54,23 +54,34 @@ header {
   padding-top: 8%;
   padding-bottom: 6%;
 }
-.up{
+/* .up{
   background-image: url("./Image\ 2.jpg");
   height: 100vh;
   background-repeat: no-repeat;
-  padding-right: 2%;
+  padding-right: 0%;
   padding-top: 2%;
-}
+} */
 .juicewrld{
   color: white;
+  font-size: xx-large;
 }
-.okay{
+/* .okay{
   background-image: url("./Image\ \(3\).jpg");
   height: 100vh;
   background-repeat: no-repeat;
-  padding-left: 8%;
-  padding-right: 8%;
-}
-.mexico{
-  height: fit-content;
+  padding-left: 20px;
+  margin-right: 2%; */
+/* } */
+/* .rad{
+  display: flex;
+  flex-direction: row;
+} */
+.rad{
+  background-image: 
+  url("./Image\ 2.jpg"),
+  url("./Image\ \(3\).jpg");
+  background-position: left,right;
+  background-size: 300px, 400px;
+  background-repeat: no-repeat, no-repeat;
+  height: 100vh;
 }
