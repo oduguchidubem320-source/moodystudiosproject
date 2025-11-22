@@ -5,6 +5,7 @@
     background-size: cover;
     overflow-x: hidden;
     background-position: center;
+    background-attachment: fixed;   
 }
 header {
   color: #ffffff;
@@ -66,7 +67,32 @@ body{
     font-size: xx-large;
 }
 .chill{
-    background-color: black;
+    /* background-color: black;
     color: white;
     padding-top: 2%;
+    padding-bottom: 2%; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.out{
+        background-color: black;
+    color: white;
+    padding-top: 2%;
+    margin: 0;
+    /* padding-bottom: 2%; */
+    /* margin-bottom: 1500px; */
+    padding-left: 2%;
+}
+.read{
+    background-image: url("./Image\ 5.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+.learn{
+    background-image: url("./Image\ 6.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
 }
